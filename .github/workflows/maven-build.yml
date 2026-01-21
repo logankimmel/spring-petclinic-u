@@ -25,5 +25,8 @@ jobs:
           java-version: ${{matrix.java}}
           distribution: 'adopt'
           cache: maven
+          server-id: private-repo
+          server-username: MAVEN_USERNAME  # env variable for username
+          server-password: MAVEN_PASSWORD  # env variable for password
       - name: Build with Maven Wrapper
         run: ./mvnw -B package
