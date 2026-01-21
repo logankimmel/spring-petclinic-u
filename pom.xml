@@ -218,6 +218,11 @@
 
   <pluginRepositories>
     <pluginRepository>
+      <id>private-repo</id>
+      <name>Broadcom Spring Enterprise</name>
+      <url>https://packages.broadcom.com/artifactory/spring-enterprise</url>
+    </pluginRepository>
+    <pluginRepository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
       <url>https://repo.spring.io/snapshot</url>
